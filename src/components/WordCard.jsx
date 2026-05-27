@@ -134,7 +134,7 @@ export default function WordCard({ word, tagsList = [], onEdit, onDelete }) {
     <div className="relative bg-white/80 rounded-2xl p-5 border border-[#E5D4C0] shadow-[0_4px_12px_rgba(78,54,41,0.02)] hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(78,54,41,0.06)] hover:border-primary spring-transition group overflow-hidden animate-pop-in">
       
       {/* Top Section: Action Buttons */}
-      <div className="absolute top-3 right-3 flex items-center space-x-1.5 opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition-opacity duration-300">
+      <div className="absolute top-3 right-3 flex items-center space-x-1.5 opacity-70 hover:opacity-100 transition-opacity duration-200">
         <button 
           onClick={(e) => { e.stopPropagation(); onEdit(word); }}
           className="p-1.5 rounded-lg bg-primary-light/50 text-primary-dark hover:bg-primary hover:text-white hover:scale-105 spring-transition"
