@@ -19,7 +19,7 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "/WordPal/",
   "background_color": "#FAF6F0",
   "theme_color": "#FFB3B3",
   "display": "standalone",
