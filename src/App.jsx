@@ -162,11 +162,11 @@ export default function App() {
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => { setSearchQuery(''); setSelectedTag(''); }}>
             <Mascot mood={getHomeMascotMood()} size={55} className="shrink-0" />
             <div>
-              <h1 className="text-2xl font-black tracking-tight text-primary-dark m-0 flex items-center">
+              <h1 className="text-2xl font-black tracking-tight text-stitch-blue m-0 flex items-center">
                 WordPal
-                <Sparkles className="w-5 h-5 ml-1 text-accent fill-accent animate-bounce-subtle" />
+                <Sparkles className="w-5 h-5 ml-1 text-stitch-blue fill-stitch-blue/20 animate-bounce-subtle" />
               </h1>
-              <p className="text-[10px] font-extrabold text-[#E58F8F] uppercase tracking-widest hidden sm:block">
+              <p className="text-[10px] font-extrabold text-stitch-blue/80 uppercase tracking-widest hidden sm:block">
                 我的英語學習小夥伴
               </p>
             </div>
